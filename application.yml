@@ -1,12 +1,13 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
-    registerWithEureka: true
-    fetchRegistry: true
-      
 app:
   eureka:
     username: nsliot
     password: Iotbrane2023
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${app.eureka.username}:${app.eureka.password}@localhost:8761/eureka/
+    registerWithEureka: true
+    fetchRegistry: true
+      
 
