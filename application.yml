@@ -6,6 +6,7 @@ eureka:
     fetchRegistry: true
       
 app:
-  service:
-    name: gns
+  eureka:
+    username: nsliot
+    password: Iotbrane2023
 
