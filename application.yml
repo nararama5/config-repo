@@ -4,7 +4,7 @@ app:
     password: Iotbrane2023
 spring:
   application:
-    name:ApiGateway
+    name: ApiGateway
 eureka:
   client:
     serviceUrl:
