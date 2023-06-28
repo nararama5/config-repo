@@ -2,9 +2,6 @@ app:
   eureka:
     username: nsliot
     password: Iotbrane2023
-spring:
-  application:
-    name: ApiGateway
 endpoint:
   cu: nsl-iot-changeunit
 eureka:
