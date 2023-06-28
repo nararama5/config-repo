@@ -5,6 +5,8 @@ app:
 spring:
   application:
     name: ApiGateway
+endpoint:
+  cu: nsl-iot-changeunit
 eureka:
   client:
     serviceUrl:
